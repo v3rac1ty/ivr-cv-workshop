@@ -1,7 +1,7 @@
 # import necessary libraries(opencv, numpy)
 import cv2
 import numpy as np
-# read the color pallete image (assets/colors.jpg)
+# read the color pallete image (assets/colors.png)
 img = None
 # convert image to HSV color space
 hsv_img = None

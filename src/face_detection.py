@@ -23,3 +23,4 @@ faces = None
 
 
 cv.waitKey(0)
+cv.destroyAllWindows()

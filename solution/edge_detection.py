@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # read the cat image
-img = cv2.imread('./assets/cat1.jpg')
+img = cv2.imread('../assets/cat1.jpg')
 # convert the image to grayscale
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # Blur the image for better edge detection

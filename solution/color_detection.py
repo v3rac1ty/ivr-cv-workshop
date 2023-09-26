@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # read the image
-img = cv2.imread('./assets/colors.png')
+img = cv2.imread('../assets/colors.png')
 # convert image to HSV color space
 hsv_img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
