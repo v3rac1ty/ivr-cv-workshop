@@ -20,6 +20,10 @@ faces = face_classifier.detectMultiScale(gray_img, 1.1, 4)
 for(x, y, w, h) in faces:
     cv.rectangle(img, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
+# Changing Window Size
+cv.namedWindow("Face Detection", cv.WINDOW_NORMAL)
+cv.resizeWindow("Face Detection", 300, 900)
+
 # display the image
 cv.imshow("Face Detection", img)
 
